@@ -25,9 +25,6 @@ public class WebServiceApplication implements CommandLineRunner {
 		userRepository.save(User.builder().nombre("Neil").build());
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-		userRepository.save(User.builder().nombre("Ale").build());
-	}
+
 
 }
