@@ -10,4 +10,12 @@ public class WebServiceApplication {
 		SpringApplication.run(WebServiceApplication.class, args);
 	}
 
+<<<<<<< Updated upstream
+=======
+
+	@Override
+	public void run(String... args) throws Exception {
+		userRepository.save(User.builder().nombre("Ale").build());
+	}
+>>>>>>> Stashed changes
 }
