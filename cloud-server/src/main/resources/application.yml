@@ -3,6 +3,7 @@ server:
 spring:
   cloud:
     config:
+      enabled: true
       server:
         git:
           label: master
