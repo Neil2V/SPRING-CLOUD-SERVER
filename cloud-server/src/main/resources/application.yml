@@ -5,9 +5,8 @@ spring:
     config:
       enabled: true
       server:
-        git:
-          label: master
-          uri: E:\workspace\SPRING-CLOUD-SERVER
-          search-paths: config-data
+        native:
+          searchLocations: file:/E:/workspace/SPRING-CLOUD-SERVER
+
   application:
     name: cloud-server
