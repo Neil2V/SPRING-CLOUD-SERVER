@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: main
-          uri: https://github.com/Neil2V/SPRING-CLOUD-SERVER
+          default-label: master
+          uri: E:\workspace\SPRING-CLOUD-SERVER
           search-paths: config-data
   application:
     name: cloud-server

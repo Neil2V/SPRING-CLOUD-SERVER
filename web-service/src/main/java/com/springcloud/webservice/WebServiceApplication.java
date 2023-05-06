@@ -19,10 +19,9 @@ public class WebServiceApplication implements CommandLineRunner {
 		SpringApplication.run(WebServiceApplication.class, args);
 	}
 
-
 	@Override
 	public void run(String... args) throws Exception {
-		userRepository.save(User.builder().nombre("Liduvino").build());
+		userRepository.save(User.builder().nombre("Angel").build());
 	}
 
 
