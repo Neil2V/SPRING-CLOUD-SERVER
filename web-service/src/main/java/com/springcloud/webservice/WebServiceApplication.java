@@ -22,7 +22,7 @@ public class WebServiceApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		userRepository.save(User.builder().nombre("Neil").build());
+		userRepository.save(User.builder().nombre("Liduvino").build());
 	}
 
 
