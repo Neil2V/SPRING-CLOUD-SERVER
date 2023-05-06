@@ -6,9 +6,7 @@ spring:
       enabled: true
       server:
         git:
-          label: master
-          uri: E:\workspace\SPRING-CLOUD-SERVER
-          search-paths: config-data
+          basedir: E:\workspace\SPRING-CLOUD-SERVER\config-data
   application:
     name: cloud-server
 
