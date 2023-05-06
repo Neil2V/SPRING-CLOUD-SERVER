@@ -3,10 +3,12 @@ server:
 spring:
   cloud:
     config:
+      enabled: true
       server:
-        native:
-          searchLocations:
-            file: E:/workspace/SPRING-CLOUD-SERVER
-            search-paths: config-data
+        git:
+          label: master
+          uri: E:\workspace\SPRING-CLOUD-SERVER
+          search-paths: config-data
   application:
-    name: config-service
+    name: cloud-server
+
