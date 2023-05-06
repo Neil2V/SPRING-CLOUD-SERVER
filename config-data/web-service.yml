@@ -1,7 +1,6 @@
 server:
     port: 8095
-name:
-    student: Neil
+
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/springcloudconfig
