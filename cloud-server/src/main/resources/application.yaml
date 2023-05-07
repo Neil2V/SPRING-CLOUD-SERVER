@@ -3,12 +3,10 @@ server:
 spring:
   cloud:
     config:
-      enabled: true
       server:
         git:
           default-label: master
-          uri: https://github.com/Neil2V/SPRING-CLOUD-SERVER
+          uri: https://github.com/Neil2V/SPRING-EUREKA-CLOUD-CONFIG-GATEWAY
           search-paths: config-data
   application:
     name: cloud-server
-
